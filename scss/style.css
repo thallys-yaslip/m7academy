@@ -24,14 +24,9 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 10px 11px;
-  border-radius: 35px;
-  height: 100%;
-  background-color: #2529456b;
+
 }
-.container_principal .scopo .left_side img {
-  width: 60px;
-}
+
 .container_principal .scopo .middle_side {
   display: flex;
   align-items: flex-start;
@@ -69,9 +64,6 @@ body {
   align-items: flex-start;
   justify-content: center;
   height: 100%;
-  padding: 12px 15px;
-  background-color: #2529456b;
-  border-radius: 35px;
 }
 .container_principal .scopo .right_side .avatar {
   display: flex;
