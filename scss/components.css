@@ -1,0 +1,47 @@
+.homeprincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  gap: 30px;
+}
+.homeprincipal .part_um {
+  display: flex;
+  border: 1px solid red;
+  height: 35%;
+  width: 100%;
+  gap: 30px;
+}
+.homeprincipal .part_um .camp_active {
+  width: 60%;
+  height: 100%;
+  border: 1px solid red;
+  border-radius: 25px;
+}
+.homeprincipal .part_um .aboutequipe {
+  width: 40%;
+  height: 100%;
+  border: 1px solid red;
+  border-radius: 25px;
+}
+.homeprincipal .part_dois {
+  display: flex;
+  border: 1px solid red;
+  height: 65%;
+  width: 100%;
+  gap: 30px;
+}
+.homeprincipal .part_dois .part_dois_left {
+  width: 60%;
+  height: 100%;
+  border: 1px solid red;
+  border-radius: 25px;
+}
+.homeprincipal .part_dois .part_dois_right {
+  width: 40%;
+  height: 100%;
+  border: 1px solid red;
+  border-radius: 25px;
+}/*# sourceMappingURL=components.css.map */

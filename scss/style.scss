@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #0c0b0e;
+}
+
+.container_principal {
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+
+    .scopo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+
+        .left_side {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 25px 5px;
+            border-radius: 25px;
+            height: 100%;
+            background-color: #000;
+
+            img {
+                width: 75px;
+            }
+        }
+
+        .middle_side {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 100%;
+            padding: 0px 35px;
+            justify-content: center;
+            height: 100%;
+
+            .topo_middle {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                border-radius: 25px;
+                background-color: #000;
+                padding: 30px 30px;
+
+                .left_side_middle {
+                    display: flex;
+                    color: #fff;
+                    align-items: center;
+                    justify-content: flex-start;
+                    width: 50%;
+                }
+
+                .right_side_middle {
+                    display: flex;
+                    color: #fff;
+                    align-items: flex-start;
+                    justify-content: center;
+                    width: 50%;
+                }
+            }
+        }
+
+        .right_side {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            height: 100%;
+            border: 1px solid red;
+            border-radius: 25px;
+            .avatar {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #fff;
+                border-radius: 50%;
+                img {
+                    width: 70px;
+                }
+            }
+        }
+    }
+}
+
+.container_conteudos_principais{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
