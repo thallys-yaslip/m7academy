@@ -15,13 +15,13 @@
 .homeprincipal .part_um .camp_active {
   width: 60%;
   height: 100%;
-  background-color: #2529456b;
+  background-color: rgba(37, 41, 69, 0.4196078431);
   border-radius: 25px;
 }
 .homeprincipal .part_um .aboutequipe {
   width: 40%;
   height: 100%;
-  background-color: #2529456b;
+  background-color: rgba(37, 41, 69, 0.4196078431);
   border-radius: 25px;
 }
 .homeprincipal .part_dois {
@@ -33,12 +33,12 @@
 .homeprincipal .part_dois .part_dois_left {
   width: 60%;
   height: 100%;
-  background-color: #2529456b;
+  background-color: rgba(37, 41, 69, 0.4196078431);
   border-radius: 25px;
 }
 .homeprincipal .part_dois .part_dois_right {
   width: 40%;
   height: 100%;
-  background-color: #2529456b;
+  background-color: rgba(37, 41, 69, 0.4196078431);
   border-radius: 25px;
-}/*# sourceMappingURL=components.css.map */
+}
