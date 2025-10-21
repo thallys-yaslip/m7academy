@@ -5,37 +5,204 @@
     width: 100%;
     height: 100%;
     gap: 15px;
-    
-    .part_um{
+
+    .part_um {
         display: flex;
-        height:35%;
+        height: 35%;
         width: 100%;
         gap: 30px;
-        .camp_active{
+        .camp_active {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             width: 60%;
             height: 100%;
             background-color: #2529456b;
             border-radius: 25px;
+            .content_camp_active {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                list-style: none;
+                width: 50%;
+                border: 1px solid red;
+                li {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: 100%;
+                }
+                .topo_content {
+                    display: flex;
+                    width: 100%;
+                    span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5px;
+                        font-family: "Satoshi", sans-serif;
+                        font-weight: 300;
+                        font-size: 12px;
+                        img {
+                            width: 20px;
+                        }
+                        background-color: #fff;
+                        color: #0b1124;
+                        border-radius: 50px;
+                        padding: 8px 15px 8px 10px;
+                    }
+                }
+                .texto_content_middle {
+                    h2 {
+                        font-family: "Satoshi", sans-serif;
+                        font-weight: 500;
+
+                        font-size: 28px;
+                        color: #fff;
+                        letter-spacing: -2px;
+                        span {
+                            font-weight: 700;
+                            color: #ffa500;
+                            text-transform: uppercase;
+                        }
+                    }
+                    p {
+                        font-family: "Satoshi", sans-serif;
+                        font-weight: 300;
+                        font-size: 12px;
+                        color: #fff;
+                        opacity: 0.9;
+                    }
+                }
+                .balls_bt {
+
+
+                    .container_balls {
+                        display: flex;
+                        align-items: center;
+
+                        li {
+                            list-style: none;
+                            border-radius: 50%;
+                            width: 45px;
+                            height: 45px;
+                            overflow: hidden;
+                            margin-left: -15px;
+                            box-shadow: -3px 0px 15px -5px black;
+                            transition: transform 0.2s ease;
+
+                            &:first-child {
+                                margin-left: 0;
+                            }
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+
+                        li:nth-child(1) {
+                            z-index: 1;
+                            background-color: #3700ff;
+                        }
+
+                        li:nth-child(2) {
+                            z-index: 2;
+                            background-color: #00ff0d; // opcional
+                        }
+
+                        li:nth-child(3) {
+                            z-index: 3;
+                            background-color: #ff0000; // opcional
+                        }
+                    }
+                }
+            }
         }
-        .aboutequipe{
+        .aboutequipe {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             width: 40%;
             height: 100%;
-            background-color: #2529456b;
+
             border-radius: 25px;
+            ul {
+                width: 100%;
+                height: 100%;
+                gap: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                list-style: none;
+                li {
+                    padding: 0px 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    flex: 1;
+                    background-color: #2529456b;
+                    width: 100%;
+                    border-radius: 25px;
+                    opacity: 0.8;
+                    cursor: pointer;
+                    transition:
+                        opacity 0.5s ease,
+                        box-shadow 0.3s ease;
+                    &:hover {
+                        opacity: 1;
+                    }
+                    .icon_s {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 50%;
+                        padding: 10px;
+                        background-color: #0b1124;
+                        width: 40px;
+                        height: 40px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .text_container_aboutequipe {
+                        margin-left: 25px;
+                        h4 {
+                            font-family: "Satoshi", sans-serif;
+                            font-weight: 500;
+                            font-size: 15px;
+                            color: #ffa500;
+                        }
+                        p {
+                            font-family: "Satoshi", sans-serif;
+                            font-weight: 200;
+                            font-size: 12px;
+                            color: #fff;
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
         }
     }
-    .part_dois{
+    .part_dois {
         display: flex;
         height: 65%;
         width: 100%;
         gap: 30px;
-        .part_dois_left{
+        .part_dois_left {
             width: 60%;
             height: 100%;
             background-color: #2529456b;
             border-radius: 25px;
         }
-        .part_dois_right{
+        .part_dois_right {
             width: 40%;
             height: 100%;
             background-color: #2529456b;

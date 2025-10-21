@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Index</title>
-    <link rel="stylesheet" href="./scss/style.css">
+    <!-- <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./scss/components.css"> -->
+
     <link rel="stylesheet" href="./CompiledCss/style.css">
     <link rel="stylesheet" href="./CompiledCss/components.css">
-    <link rel="stylesheet" href="./scss/components.css">
+    
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
 </head>
 
 <body>
@@ -44,11 +47,27 @@
             <div class="middle_side">
                 <div class="topo_middle">
                     <div class="left_side_middle">
-                        <h2>bem vindo <span>nome</span></h2>
+                        <h2>Good Evenning, <span>NIKITA</span></h2>
+
+
                     </div>
                     <div class="right_side_middle">
 
+                        <div class="alfredo">
+                            <h4>
+                                R$50,00
+                                <span>
+                                    <img src="./assets/icons/plus.png" alt="">
+                                </span>
+                            </h4>
+                            
+                        </div>
 
+                        <ul class="saldo">
+                            <li>
+                                <img src="./assets/icons/notification.png" alt="">
+                            </li>
+                        </ul>
                     </div>
                 </div>
 

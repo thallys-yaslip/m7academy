@@ -15,14 +15,33 @@
 .homeprincipal .part_um .camp_active {
   width: 60%;
   height: 100%;
-  background-color: #2529456b;
+  background-color: rgba(37, 41, 69, 0.4196078431);
   border-radius: 25px;
 }
 .homeprincipal .part_um .aboutequipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40%;
   height: 100%;
-  background-color: #2529456b;
   border-radius: 25px;
+}
+.homeprincipal .part_um .aboutequipe ul {
+  width: 80%;
+  height: 100%;
+  gap: 15px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.homeprincipal .part_um .aboutequipe ul li {
+  flex: 1;
+  background-color: rgba(37, 41, 69, 0.4196078431);
+  width: 100%;
+  border-radius: 25px;
+  border: 1px solid red;
 }
 .homeprincipal .part_dois {
   display: flex;
@@ -33,12 +52,12 @@
 .homeprincipal .part_dois .part_dois_left {
   width: 60%;
   height: 100%;
-  background-color: #2529456b;
+  background-color: rgba(37, 41, 69, 0.4196078431);
   border-radius: 25px;
 }
 .homeprincipal .part_dois .part_dois_right {
   width: 40%;
   height: 100%;
-  background-color: #2529456b;
+  background-color: rgba(37, 41, 69, 0.4196078431);
   border-radius: 25px;
-}/*# sourceMappingURL=components.css.map */
+}

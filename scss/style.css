@@ -24,7 +24,6 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-
 }
 
 .container_principal .scopo .middle_side {
@@ -32,7 +31,7 @@ body {
   align-items: flex-start;
   flex-direction: column;
   width: 100%;
-      padding: 0px 50px;
+  padding: 0px 50px;
   justify-content: center;
   height: 100%;
 }
@@ -41,9 +40,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  border-radius: 25px;
-  border: 1px solid red;
-  padding: 20px 0px;
+  padding: 0px 0px 20px;
 }
 .container_principal .scopo .middle_side .topo_middle .left_side_middle {
   display: flex;
