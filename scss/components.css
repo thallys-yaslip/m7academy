@@ -16,7 +16,7 @@
   width: 60%;
   height: 100%;
   background-color: rgba(37, 41, 69, 0.4196078431);
-  border-radius: 25px;
+  border-radius: 20px;
 }
 .homeprincipal .part_um .aboutequipe {
   display: flex;
@@ -24,7 +24,7 @@
   justify-content: center;
   width: 40%;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 .homeprincipal .part_um .aboutequipe ul {
   width: 80%;
@@ -40,7 +40,7 @@
   flex: 1;
   background-color: rgba(37, 41, 69, 0.4196078431);
   width: 100%;
-  border-radius: 25px;
+  border-radius: 20px;
   border: 1px solid red;
 }
 .homeprincipal .part_dois {
@@ -53,11 +53,11 @@
   width: 60%;
   height: 100%;
   background-color: rgba(37, 41, 69, 0.4196078431);
-  border-radius: 25px;
+  border-radius: 20px;
 }
 .homeprincipal .part_dois .part_dois_right {
   width: 40%;
   height: 100%;
   background-color: rgba(37, 41, 69, 0.4196078431);
-  border-radius: 25px;
+  border-radius: 20px;
 }

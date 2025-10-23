@@ -13,17 +13,35 @@
 
                     <div class="texto_content_middle">
                         <h2>Camp de <span>Halloween</span></h2>
-                        <p>Participe do Camp de Halloween de League of Legends! Mostre suas habilidades, enfrente outros invocadores e dispute R$900 em prêmios. Entre no clima sombrio e conquiste a vitória!</p>
+                        <p>Participe do Camp de Halloween de League of Legends! Mostre suas habilidades, enfrente outros invocadores e dispute R$900 em prêmios.</p>
                     </div>
 
                     <div class="balls_bt">
-                        <ul class="container_balls" >
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <ul>
+                        <ul class="container_balls">
                             <li>
+                                <img src="./assets/logo.png" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/logo.png" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/logo.png" alt="">
+
+                            </li>
+                        </ul>
+
+                        <ul class="btnss">
+                            <li>
+                                <span>
+                                    <img src="./assets/icons/console.png" alt="">
+                                    +90</span>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>
+                                        <img src="./assets/icons/next.png" alt="">
+                                        Participar</span>
+                                </a>
 
                             </li>
                         </ul>
@@ -58,6 +76,36 @@
     </div>
     <div class="part_dois">
         <div class="part_dois_left">
+            <div class="slide_camps">
+                <ul>
+                    <li class="">
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="prox_camps">
+                <h2>Próximos Jogos</h2>
+                <div class="container_jogos">
+                    <div class="download_card">
+                        <div class="game_img">
+                            <img src="./assets/logo.png" alt="FIFA 23">
+                        </div>
+                        <div class="game_info">
+                            <h3>FIFA 23</h3>
+                            <span class="genre">Sports simulator</span>
+                        </div>
+                        <div class="download_status">
+                            <span class="time">1 hour 23 min.</span>
+                            <span class="progress">265Mb of 1,23Gb</span>
+                        </div>
+                        <div class="actions">
+                            <button class="play">▶</button>
+                            <button class="close">✕</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <div class="part_dois_right">

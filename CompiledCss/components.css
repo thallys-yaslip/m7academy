@@ -19,9 +19,11 @@
   width: 60%;
   height: 100%;
   background-color: rgba(37, 41, 69, 0.4196078431);
-  border-radius: 25px;
+  border-radius: 20px;
+  padding: 10px 10px 10px 20px;
 }
 .homeprincipal .part_um .camp_active .content_camp_active {
+  padding: 10px 0px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -29,7 +31,6 @@
   justify-content: flex-start;
   list-style: none;
   width: 50%;
-  border: 1px solid red;
 }
 .homeprincipal .part_um .camp_active .content_camp_active li {
   display: flex;
@@ -60,8 +61,8 @@
   width: 20px;
 }
 .homeprincipal .part_um .camp_active .content_camp_active .texto_content_middle h2 {
-  font-family: "Satoshi", sans-serif;
-  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   font-size: 28px;
   color: #fff;
   letter-spacing: -2px;
@@ -78,6 +79,11 @@
   color: #fff;
   opacity: 0.9;
 }
+.homeprincipal .part_um .camp_active .content_camp_active .balls_bt {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 .homeprincipal .part_um .camp_active .content_camp_active .balls_bt .container_balls {
   display: flex;
   align-items: center;
@@ -88,9 +94,11 @@
   width: 45px;
   height: 45px;
   overflow: hidden;
-  margin-left: -15px;
+  margin-left: -20px;
   box-shadow: -3px 0px 15px -5px black;
   transition: transform 0.2s ease;
+  background-color: #fff;
+  border: 2px solid #161B32;
 }
 .homeprincipal .part_um .camp_active .content_camp_active .balls_bt .container_balls li:first-child {
   margin-left: 0;
@@ -103,15 +111,47 @@
 }
 .homeprincipal .part_um .camp_active .content_camp_active .balls_bt .container_balls li:nth-child(1) {
   z-index: 1;
-  background-color: #3700ff;
 }
 .homeprincipal .part_um .camp_active .content_camp_active .balls_bt .container_balls li:nth-child(2) {
   z-index: 2;
-  background-color: #00ff0d;
 }
 .homeprincipal .part_um .camp_active .content_camp_active .balls_bt .container_balls li:nth-child(3) {
   z-index: 3;
-  background-color: #ff0000;
+}
+.homeprincipal .part_um .camp_active .content_camp_active .balls_bt .btnss {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+.homeprincipal .part_um .camp_active .content_camp_active .balls_bt .btnss li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+}
+.homeprincipal .part_um .camp_active .content_camp_active .balls_bt .btnss li span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 0px 10px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 50px;
+  gap: 10px;
+  height: 35px;
+}
+.homeprincipal .part_um .camp_active .content_camp_active .balls_bt .btnss li span img {
+  width: 25px;
+}
+.homeprincipal .part_um .camp_active .content_camp_active .balls_bt .btnss li:nth-child(2) span {
+  display: flex;
+  color: #ffffff;
+  flex-direction: row-reverse;
+  background-color: #F05408;
+  gap: 0px;
 }
 .homeprincipal .part_um .aboutequipe {
   display: flex;
@@ -119,7 +159,7 @@
   justify-content: center;
   width: 40%;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 .homeprincipal .part_um .aboutequipe ul {
   width: 100%;
@@ -139,7 +179,7 @@
   flex: 1;
   background-color: rgba(37, 41, 69, 0.4196078431);
   width: 100%;
-  border-radius: 25px;
+  border-radius: 20px;
   opacity: 0.8;
   cursor: pointer;
   transition: opacity 0.5s ease, box-shadow 0.3s ease;
@@ -164,9 +204,9 @@
   margin-left: 25px;
 }
 .homeprincipal .part_um .aboutequipe ul li .text_container_aboutequipe h4 {
-  font-family: "Satoshi", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   color: #ffa500;
 }
 .homeprincipal .part_um .aboutequipe ul li .text_container_aboutequipe p {
@@ -183,14 +223,109 @@
   gap: 30px;
 }
 .homeprincipal .part_dois .part_dois_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 60%;
   height: 100%;
+  border-radius: 20px;
+}
+.homeprincipal .part_dois .part_dois_left .slide_camps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.homeprincipal .part_dois .part_dois_left .slide_camps ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.homeprincipal .part_dois .part_dois_left .slide_camps ul li {
   background-color: rgba(37, 41, 69, 0.4196078431);
-  border-radius: 25px;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps h2 {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  opacity: 0.9;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos {
+  width: 100%;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: rgba(37, 41, 69, 0.42);
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos .download_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos .download_card .game_img img {
+  width: 60px;
+  height: 35px;
+  border-radius: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos .download_card .game_info {
+  flex: 1;
+  margin-left: 15px;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos .download_card .game_info h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos .download_card .game_info .genre {
+  font-size: 12px;
+  color: #aaa;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos .download_card .download_status {
+  text-align: right;
+  margin-right: 15px;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos .download_card .download_status .time {
+  display: block;
+  font-size: 12px;
+  color: #fff;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos .download_card .download_status .progress {
+  display: block;
+  font-size: 10px;
+  color: #888;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos .download_card .actions {
+  display: flex;
+  gap: 8px;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos .download_card .actions button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+.homeprincipal .part_dois .part_dois_left .prox_camps .container_jogos .download_card .actions .play {
+  background-color: #ffa500;
+  color: #fff;
 }
 .homeprincipal .part_dois .part_dois_right {
   width: 40%;
   height: 100%;
   background-color: rgba(37, 41, 69, 0.4196078431);
-  border-radius: 25px;
+  border-radius: 20px;
 }
