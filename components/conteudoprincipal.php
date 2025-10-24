@@ -12,7 +12,7 @@
 
 
                     <div class="texto_content_middle">
-                        <h2>Camp de <span>Halloween</span></h2>
+                        <h2>Camp de <span>Natal</span></h2>
                         <p>Participe do Camp de Halloween de League of Legends! Mostre suas habilidades, enfrente outros invocadores e dispute R$900 em prêmios.</p>
                     </div>
 
