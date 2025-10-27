@@ -76,12 +76,69 @@
     </div>
     <div class="part_dois">
         <div class="part_dois_left">
-            <div class="slide_camps">
+
+            <!-- <div class="slide_camps">
                 <ul>
                     <li class="">
 
                     </li>
                 </ul>
+            </div> -->
+
+            <div class="containerSlide">
+
+                <div class="splide">
+                    <div class="splide__track">
+
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="containerImg1">
+                                        <p>Uniformes de Limpeza</p>
+                                        <p class="pText">Veja mais</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="containerImg2">
+                                        <p>Aventais</p>
+                                        <p class="pText">Veja mais</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="containerImg3">
+                                        <p>Api's</p>
+                                        <p class="pText">Veja mais</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="containerImg4">
+                                        <p>Chapéus Bandadas</p>
+                                        <p class="pText">Veja mais</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="containerImg5">
+                                        <p>Polos</p>
+                                        <p class="pText">Veja mais</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
             </div>
 
             <div class="prox_camps">
@@ -113,3 +170,30 @@
         </div>
     </div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+    new Splide('.splide', {
+        perPage: 3,
+        gap: '2rem',
+        type: 'loop',
+        pagination: true, 
+        arrows: true,
+
+        breakpoints: {
+            1200: {
+                perPage: 3, // até 1200px → 3 slides
+                gap: '1.5rem',
+            },
+            992: {
+                perPage: 2, // até 992px → 2 slides
+                gap: '1rem',
+            },
+            600: {
+                perPage: 1.5, // até 600px → 1 slide
+                gap: '0.5rem',
+                focus: 'center',
+            },
+        },
+    }).mount();
+</script>

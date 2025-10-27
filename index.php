@@ -8,9 +8,19 @@
     <!-- <link rel="stylesheet" href="./scss/style.css">
     <link rel="stylesheet" href="./scss/components.css"> -->
 
+    <!-- Incio Slider -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <!-- Fim Slider -->
+
+    <!-- Sass Anderson -->
+    <link rel="stylesheet" href="./scss/slider.css">
+    <!-- Sass Fim Anderson -->
+
+
     <link rel="stylesheet" href="./CompiledCss/style.css">
     <link rel="stylesheet" href="./CompiledCss/components.css">
-    
+
     <link rel="stylesheet" href="./assets/fonts/fonts.css">
 </head>
 
@@ -60,7 +70,7 @@
                                     <img src="./assets/icons/plus.png" alt="">
                                 </span>
                             </h4>
-                            
+
                         </div>
 
                         <ul class="saldo">
